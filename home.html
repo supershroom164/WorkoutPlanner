@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workout Planner</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css">
+<body>
+  <h1>
+  Ready to get Swole?
+  </h1>
+  
+  <form>
+  	<label for="workout">Workout</label>
+  	<input id="workout" type='text' name="workoutInput" placeholder="Workout Name">
+  
+    <label for="selectDay">Which Day?</label>
+			<select id="selectDay">
+  			<option value="mondayTask">Monday</option>
+  			<option value="tuesdayTask">Tuesday</option>
+  			<option value="wednesdayTask">Wednesday</option>
+  			<option value="thursdayTask">Thursday</option>
+        <option value="fridayTask">Friday</option>
+        <option value="saturdayTask">Saturday</option>
+				<option value="sundayTask">Sunday</option>
+			</select>
+      
+      <button type="button" id='addbtn'>Add Task</button>
+  </form>
+  
+  <h2>Tasks List</h2>
+  	
+<main>
+	<div class="day" id="monday"><h3>Monday</h3>
+  	<ul id="mondayTask">
+    	<li>Monday first task</li>
+    </ul>
+  </div>
+  
+  <div class="day" id="tuesday"><h3>Tuesday</h3>
+  	<ul id="tuesdayTask">
+    	<li>Monday first task</li>
+    </ul>
+  </div>
+  
+  <div class="day" id="wednesday"><h3>wednesday</h3>
+  	<ul id="wednesdayTask">
+    	<li>Monday first task</li>
+    </ul>
+  </div>
+  
+  <div class="day" id="thursday"><h3>Thursday</h3>
+  	<ul id="thursdayTask">
+    	<li>Monday first task</li>
+    </ul>
+  </div>
+  
+  <div class="day" id="friday"><h3>Friday</h3>
+  	<ul id="fridayTask">
+    	<li>Monday first task</li>
+    </ul>
+  </div>
+  
+  <div class="day" id="saturday"><h3>Saturday</h3>
+  	<ul id="saturdayTask">
+    	<li>Monday first task</li>
+    </ul>
+  </div>
+  
+  <div class="day" id="sunday"><h3>Sunday</h3>
+  	<ul id="sundayTask">
+    	<li>Monday first task</li>
+    </ul>
+  </div>
+</main>
+  
+<script src="index.js"></script>
+</body>
+</html>

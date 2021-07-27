@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&family=Zen+Tokyo+Zoo&display=swap');
+
+body {
+  background: grey;
+  font-family: 'Encode Sans SC', sans-serif;
+}
+
+h1 {
+text-align: center;
+font-family: 'Zen Tokyo Zoo', cursive;
+font-size: 100px;
+}
+
+h2 {
+text-align: center;
+font-size: 50px;
+}
+
+.day {
+width: 300px;
+height: 300px;
+background: white;
+border: 3px solid black;
+padding: 5px;
+margin: 5px;
+display: inline-flex;
+justify-content: center;
+}
